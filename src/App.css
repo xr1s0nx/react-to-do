@@ -12,5 +12,5 @@ body {
    min-height: 100vh;
    padding: 0 15px;
    padding-top: 50px;
-   overflow: hidden;
+   padding-bottom: 50px;
 }
