@@ -1,0 +1,62 @@
+.taskName {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+
+.taskName.complete {
+    color: rgb(111, 253, 111);
+    text-decoration: line-through;
+}
+
+.task {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+
+.task + .task {
+    margin-top: 15px;
+}
+
+.tasksBlock {
+    padding: 20px;
+    min-height: 500px;
+}
+
+.tasksTitle {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.taskButton {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.099);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskButton img{
+    width: 80%;
+}
+
+.deleteButton {
+    margin-left: auto;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.deleteButton img {
+    width: 20px;
+}
