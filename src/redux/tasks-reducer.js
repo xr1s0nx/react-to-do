@@ -9,8 +9,8 @@ let initialState = {
     tasksData: [],
     NowTextInp: '',
     addFieldEmpty: false,
-    pageAll: true,
-    pageComplete: false,
+    pageAll: false,
+    pageComplete: true,
     completeTasks: []
 }
 
